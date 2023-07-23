@@ -1,0 +1,36 @@
+.modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000af;
+  text-align: center;
+}
+
+.close-for{
+  width: 300px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(75, 73, 73);
+
+}
+
+.btn-close {
+  margin-top: 20px;
+  padding: 1 40px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.btn-close:active{
+ opacity: 0.7;
+ transform: scale(1.05);
+}
